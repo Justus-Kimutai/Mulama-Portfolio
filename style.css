@@ -35,13 +35,14 @@ img{
 }
 
 .contactMe{
-    display: inline-block;
+    text-decoration: none;
     background-color: #171718;
     color: #FFB800;
     border:1px solid #FFB800;
     padding: .3rem 1.2rem;
     text-transform: uppercase;
 }
+
 .contactMe:focus,
 .contactMe:hover{
     opacity: .5;
@@ -60,7 +61,7 @@ img{
 
 
 .contact-btn{
-    display: inline-block;
+    text-decoration: none;
     background-color: #FFB800;
     color: #171718;
     outline: none;
@@ -156,4 +157,41 @@ img{
 .social-list__link:hover,
 .social-list__link:focus{
     color: #FFB800;
+}
+
+@media(min-width:706px){
+
+    .flex{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .name-section{
+        align-self: center;
+        margin-left: 200px;
+    }
+
+    .aboutMe{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+        gap: 100px;
+    }
+    .textSection{
+        width: 35%;
+        align-self: center;
+    }
+
+
+    .successes_flex{
+        display: flex;
+        justify-content: center;
+        gap: 300px;
+    }
+
+    .section{
+        width: 500px;
+    }
+
 }
