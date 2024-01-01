@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    margin: 0 auto;
+    width: 80%;
+}
+img{
+    max-width: 100%;
+}
+/* header */
+.header{
+    background-color: #171718;
+    color: #ffff;
+    padding: 1em 0;
+}
+
+.header_greet{
+    font-weight: 100;
+    margin-bottom: 0;
+}
+.header_name{
+    font-size: 2.5em;
+    font-weight: 700;
+    margin: 0;
+    color: #FFB800;
+}
+.carrer{
+    margin-top: 0;
+    letter-spacing: 1.5px;
+    font-weight: 300;
+}
+
+.contactMe{
+    display: inline-block;
+    background-color: #171718;
+    color: #FFB800;
+    border:1px solid #FFB800;
+    padding: .3rem 1.2rem;
+    text-transform: uppercase;
+}
+.contactMe:focus,
+.contactMe:hover{
+    opacity: .5;
+}
+
+.section-title{
+    text-align: center;
+}
+
+
+.buttons{
+    /* border: 2px solid rgb(21, 0, 255); */
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.contact-btn{
+    display: inline-block;
+    background-color: #FFB800;
+    color: #171718;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    padding: .3rem 1.2rem;
+    text-transform: uppercase;
+    box-shadow: 0.25em 0.25em 0.75em rgba(0,0,0,.25);
+}
+.contact-btn:hover,
+.contact-btn:focus{
+    display: inline-block;
+    background-color: #ffffff;
+    color: #171718;
+    outline: none;
+    border: 1px solid #171718;
+    border-radius: 20px;
+    padding: .3rem 1.2rem;
+    text-transform: uppercase;
+    box-shadow: 0.25em 0.25em 0.75em rgba(0,0,0,.25);
+}
+.cv-btn{
+    display: inline-block;
+    background-color: #ffffff;
+    color: #171718;
+    outline: none;
+    border: 1px solid #171718;
+    border-radius: 20px;
+    padding: .3rem 1.2rem;
+    text-transform: uppercase;
+    box-shadow: 0.25em 0.25em 0.75em rgba(0,0,0,.25);
+}
+.cv-btn:hover,
+.cv-btn:focus{
+    display: inline-block;
+    background-color: #FFB800;
+    color: #171718;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    padding: .3rem 1.2rem;
+    text-transform: uppercase;
+    box-shadow: 0.25em 0.25em 0.75em rgba(0,0,0,.25);
+}
+
+.photoSection{
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+.successes{
+    background: #171718;
+    color: #ffff;
+    padding: .75em 0;
+}
+.section-title--successes{
+    color: #FFB800;
+}
+.achievment_list{
+    list-style: none;
+}
+.achievement_item{
+    margin-bottom: 1.2rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.course{
+    color: #FFB800;
+}
+
+.footer{
+    background: #111010;
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+.footer__link{
+    color: #FFB800;
+}
+
+.social-list{
+    list-style: none;
+    border: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-list__link{
+    color: #ffff;
+}
+.social-list__link:hover,
+.social-list__link:focus{
+    color: #FFB800;
+}
